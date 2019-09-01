@@ -2,7 +2,6 @@ asn1crypto==0.24.0
 attrs==18.2.0
 Automat==0.6.0
 blinker==1.4
-bzr-fastimport==0.14.0.dev0
 BzrTools==2.6.0
 certifi==2019.6.16
 Chameleon==2.24
