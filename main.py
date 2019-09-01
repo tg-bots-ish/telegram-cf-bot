@@ -13,10 +13,10 @@ def send_msg(msg):
 
 
 def fail(msg):
-    bot.send_message(CHAT_ID, 'Что-то пошло не так' + str(msg))
+    bot.send_message(CHAT_ID, 'Error:' + str(msg))
 
 def get_round_statistics(x):
-    send_msg(x['contestName'] + ', Место ' + str(x['rank']) + ', ' + str(x['oldRating']) + ' -> ' + str(x['newRating']))
+    send_msg(x['contestName'] + ', Place ' + str(x['rank']) + ', ' + str(x['oldRating']) + ' -> ' + str(x['newRating']))
 
 
 def get_round_notification(x):
