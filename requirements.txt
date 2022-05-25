@@ -35,7 +35,7 @@ pycrypto==2.6.1
 pydns==2.3.6
 pygame==1.9.4.post1
 PyGObject==3.32.0
-PyJWT==1.7.0
+PyJWT==2.4.0
 pyOpenSSL==19.0.0
 pyTelegramBotAPI==3.6.6
 python-apt==1.8.4
